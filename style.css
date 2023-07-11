@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+.banner {
+  background-color: #ffdfe6;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bannertitle {
+  font-family: "Lobster", cursive;
+}
+.bannertext {
+  text-align: center;
+  padding: 100px 150px;
+}
+
+.bannerbutton {
+  padding: 15px 30px;
+}
+.bannercolor {
+  color: #f10034;
+}
+
+.imagebanner {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  padding-right: 200px;
+}
+.bannerbutton {
+  border: none;
+  border-radius: 5px;
+  background-color: #e55473;
+  color: white;
+}
+
+.flower-showcase-text {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.flower-showcase-title {
+  font-family: "Lobster", cursive;
+  font-size: xx-large;
+}
+
+.flower-showcase-description {
+  font-size: small;
+  padding-top: 20px;
+  margin: 0px 400px;
+}
+
+.flower-showcase-image {
+  display: flex;
+  margin: 0px 150px;
+  padding-top: 50px;
+}
+
+.showcaseimage1,
+.showcaseimage2,
+.showcaseimage3 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.showcaseimage1 img,
+.showcaseimage2 img,
+.showcaseimage3 img {
+  max-width: 100%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.showcaseimage1 {
+  margin-right: 30px;
+  width: 200px;
+  height: 400px;
+  background-color: #bdbe5a;
+  border-radius: 50% 50% 0 0;
+}
+.showcaseimage2 {
+  width: 200px;
+  height: 400px;
+  background-color: #61b375;
+  border-radius: 50% 50% 0 0;
+}
+.showcaseimage3 {
+  margin-left: 30px;
+  width: 200px;
+  height: 400px;
+  background-color: #3e7579;
+  border-radius: 50% 50% 0 0;
+}
+
+.flower-image-description {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin: 0 130px;
+}
+
+.dealtitle {
+  padding-bottom: 20px;
+}
+
+.dealbutton {
+  margin-top: 20px;
+}
+
+.anothershowcasetitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+.anothershowcasedescription {
+  text-align: center;
+  font-size: small;
+  margin: 0px 100px;
+  padding-bottom: 50px;
+}
+
+.anothershowcase {
+  display: flex;
+  justify-content: center;
+}
+
+.anothershowcase div {
+  flex: 0.2;
+  display: flex;
+}
+
+.anothershowcase img {
+  max-height: 250px;
+}
+
+.dealsbanner {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 130px;
+}
+
+.dealsbanner img {
+  max-width: 100%;
+  max-height: 322px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -255px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  color: black !important;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  color: #725858 !important;
+  margin-bottom: 20px;
+}
+
+.email {
+  padding: 15px 100px;
+  border-radius: 5px;
+  border: none;
+}
+.unique-idea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+
+.idea-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.idea-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+}
+
+.idea-description {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.idea-button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e55473;
+  color: #fff;
+  font-size: 16px;
+}
+
+.idea-image img {
+  max-width: 100%;
+  height: 400px;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 200px;
+}
+
+.footertitle {
+  font-size: 40px;
+  padding-top: 100px;
+}
+.footerdescription {
+  margin: 0px 150px;
+  font-size: large;
+  padding-top: 20px;
+}
+
+.footerend {
+  padding-top: 20px;
+  font-size: medium;
+}
